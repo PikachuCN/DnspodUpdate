@@ -13,12 +13,12 @@ using System.Windows.Forms;
 using System.Runtime.Serialization.Json;
 namespace DnspodUpdate
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         Config config = new Config();
         string AesKey = "";
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
